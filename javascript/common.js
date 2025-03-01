@@ -1,15 +1,15 @@
 function Alert(value){
     
-    alert("board updated successful")
+    alert("Board updated Successfully")
 }
-function value(countNum){
-    if(parseInt(countNum) == 6){
+function value(counTN){
+    if(parseInt(counTN) == 0){
         Alert_2()
     }
 }
 
 function Alert_2(){
-    alert("congrates!!!  you have completed all the current task.")
+    alert("congrates!!! You have completed all the current task.")
 }
 
 document.getElementById("clear-btn").addEventListener("click", function (){

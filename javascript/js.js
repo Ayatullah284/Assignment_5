@@ -5,13 +5,8 @@ document.getElementById("btn-1").addEventListener("click", function(event){
 
     // Task-btn a man komailam 
     const convertTaskNum = parseInt(document.getElementById("Task-num").innerText)
-    document.getElementById("Task-num").innerText= convertTaskNum - 1
-
-    // count for all or 6
-    const count = parseInt(document.getElementById("count").innerText)
-    const countNum = document.getElementById("count").innerText=count + 1
-    value(countNum)
-    
+    const countTN = document.getElementById("Task-num").innerText= convertTaskNum - 1
+    value(countTN)
 
     // Nav-num a mun barailam 
     const convertNavNum = parseInt(document.getElementById("nav-num").innerText)
@@ -29,7 +24,7 @@ document.getElementById("btn-1").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `you have completed the task Fix Mobile Button Issue at  ${ locleTime}`;
+    newComment.innerHTML = `You have completed the task Fix Mobile Button Issue at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -45,12 +40,8 @@ document.getElementById("btn-2").addEventListener("click", function(event){
 
     // Task-btn a man komailam 
     const convertTaskNum = parseInt(document.getElementById("Task-num").innerText)
-    document.getElementById("Task-num").innerText= convertTaskNum - 1
-
-    // count for all or 6
-    const count = parseInt(document.getElementById("count").innerText)
-    const countNum = document.getElementById("count").innerText=count + 1
-    value(countNum)
+    const countTN = document.getElementById("Task-num").innerText= convertTaskNum - 1
+    value(countTN)
 
     // Nav-num a mun barailam 
     const convertNavNum = parseInt(document.getElementById("nav-num").innerText)
@@ -68,7 +59,7 @@ document.getElementById("btn-2").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `you have completed the task Add Dark Mode at  ${ locleTime}`;
+    newComment.innerHTML = `You have completed the task Add Dark Mode at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -83,12 +74,8 @@ document.getElementById("btn-3").addEventListener("click", function(event){
 
     // Task-btn a man komailam 
     const convertTaskNum = parseInt(document.getElementById("Task-num").innerText)
-    document.getElementById("Task-num").innerText= convertTaskNum - 1
-
-    // count for all or 6
-    const count = parseInt(document.getElementById("count").innerText)
-    const countNum = document.getElementById("count").innerText=count + 1
-    value(countNum)
+    const countTN = document.getElementById("Task-num").innerText= convertTaskNum - 1
+    value(countTN)
 
     // Nav-num a mun barailam 
     const convertNavNum = parseInt(document.getElementById("nav-num").innerText)
@@ -106,7 +93,7 @@ document.getElementById("btn-3").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `you have completed the task Optimize  Home page  at  ${ locleTime}`;
+    newComment.innerHTML = `You have completed the task Optimize  Home page  at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -122,12 +109,8 @@ document.getElementById("btn-4").addEventListener("click", function(event){
 
     // Task-btn a man komailam 
     const convertTaskNum = parseInt(document.getElementById("Task-num").innerText)
-    document.getElementById("Task-num").innerText= convertTaskNum - 1
-
-    // count for all or 6
-    const count = parseInt(document.getElementById("count").innerText)
-    const countNum = document.getElementById("count").innerText=count + 1
-    value(countNum)
+    const countTN = document.getElementById("Task-num").innerText= convertTaskNum - 1
+    value(countTN)
 
     // Nav-num a mun barailam 
     const convertNavNum = parseInt(document.getElementById("nav-num").innerText)
@@ -145,7 +128,7 @@ document.getElementById("btn-4").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `you have completed the task Add new emoji 🤲 at  ${ locleTime}`;
+    newComment.innerHTML = `You have completed the task Add new emoji 🤲 at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -160,12 +143,8 @@ document.getElementById("btn-5").addEventListener("click", function(event){
 
     // Task-btn a man komailam 
     const convertTaskNum = parseInt(document.getElementById("Task-num").innerText)
-    document.getElementById("Task-num").innerText= convertTaskNum - 1
-
-    // count for all or 6
-    const count = parseInt(document.getElementById("count").innerText)
-    const countNum = document.getElementById("count").innerText=count + 1
-    value(countNum)
+    const countTN = document.getElementById("Task-num").innerText= convertTaskNum - 1
+    value(countTN)
 
     // Nav-num a mun barailam 
     const convertNavNum = parseInt(document.getElementById("nav-num").innerText)
@@ -183,7 +162,7 @@ document.getElementById("btn-5").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `you have completed the task Integrate OpenAI API  at  ${ locleTime}`;
+    newComment.innerHTML = `You have completed the task Integrate OpenAI API  at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -198,16 +177,12 @@ document.getElementById("btn-6").addEventListener("click", function(event){
 
     // Task-btn a man komailam 
     const convertTaskNum = parseInt(document.getElementById("Task-num").innerText)
-    document.getElementById("Task-num").innerText= convertTaskNum - 1
+    const countTN = document.getElementById("Task-num").innerText= convertTaskNum - 1
+    value(countTN)
 
     // Nav-num a mun barailam 
     const convertNavNum = parseInt(document.getElementById("nav-num").innerText)
     document.getElementById("nav-num").innerText= convertNavNum + 1
-
-    // count for all or 6
-    const count = parseInt(document.getElementById("count").innerText)
-    const countNum = document.getElementById("count").innerText=count + 1
-    value(countNum)
 
     // add comment 
     const commentContainer = document.getElementById
@@ -221,7 +196,7 @@ document.getElementById("btn-6").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `you have completed the task Improve Job searching at  ${ locleTime}`;
+    newComment.innerHTML = `You have completed the task Improve Job searching at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -261,16 +236,4 @@ const today = new Date();
 const options = { weekday: 'short', month: 'short', day: '2-digit', year: 'numeric' };
 const formattedDate = today.toLocaleDateString('en-US', options).replace(',', '');
 document.getElementById("date").innerHTML=`<small>${formattedDate}</small>` 
-
-
-
-// all complete 
-// console.log(flag)
-// if(flag==6){
-//     Alert_2()
-// }
-
-
-
-
 
