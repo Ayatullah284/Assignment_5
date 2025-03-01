@@ -57,7 +57,7 @@ document.getElementById("btn-2").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `you have completed the task Fix Mobile Button Issue at  ${ locleTime}`;
+    newComment.innerHTML = `you have completed the task Add Dark Mode at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -90,7 +90,7 @@ document.getElementById("btn-3").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `you have completed the task Fix Mobile Button Issue at  ${ locleTime}`;
+    newComment.innerHTML = `you have completed the task Optimize  Home page  at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -124,7 +124,7 @@ document.getElementById("btn-4").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `you have completed the task Fix Mobile Button Issue at  ${ locleTime}`;
+    newComment.innerHTML = `you have completed the task Add new emoji 🤲 at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -157,7 +157,7 @@ document.getElementById("btn-5").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `you have completed the task Fix Mobile Button Issue at  ${ locleTime}`;
+    newComment.innerHTML = `you have completed the task Integrate OpenAI API  at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -190,7 +190,7 @@ document.getElementById("btn-6").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `you have completed the task Fix Mobile Button Issue at  ${ locleTime}`;
+    newComment.innerHTML = `you have completed the task Improve Job searching at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -203,10 +203,31 @@ document.getElementById("btn-6").addEventListener("click", function(event){
 
 
 
+// new tab 
+document.getElementById("new-today-btn").addEventListener("click", function (){
+    
+    window.open("index-2.html");
+})
 
+// random color 
+document.getElementById("random-color-btn").addEventListener("click", function () {
+    function randomC() {
+        let l = "0123456789ABCDEF0123456789ABCDEF";
+        let c = "#";
+        for (let i = 0; i < 6; i++) {
+            c += l[Math.floor(Math.random() * 32)];
+        }
+        return c;
+    }
 
+    document.body.style.backgroundColor = randomC();
+});
 
-
+// date 
+const today = new Date();
+const options = { weekday: 'short', month: 'short', day: '2-digit', year: 'numeric' };
+const formattedDate = today.toLocaleDateString('en-US', options).replace(',', '');
+document.getElementById("date").innerHTML=`<small>${formattedDate}</small>` 
 
 
 
