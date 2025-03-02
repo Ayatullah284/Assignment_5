@@ -1,6 +1,6 @@
 function Alert(value){
     
-    alert("Board updated Successfully")
+    alert("Board updated Successfully.")
 }
 function value(counTN){
     if(parseInt(counTN) == 0){
@@ -9,7 +9,7 @@ function value(counTN){
 }
 
 function Alert_2(){
-    alert("congrates!!! You have completed all the current task.")
+    alert("Congrates!!! You have completed all the current task.")
 }
 
 document.getElementById("clear-btn").addEventListener("click", function (){

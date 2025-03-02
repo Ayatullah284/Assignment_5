@@ -16,9 +16,8 @@ document.getElementById("btn-1").addEventListener("click", function(event){
     const commentContainer = document.getElementById
     ("comment-container")
     const newComment = document.createElement('p')
-    newComment.style.padding='20px'
+    newComment.style.padding='10px'
     newComment.style.paddingBottom='5px'
-    newComment.style.paddingTop='10px'
 
     // time 
     const now = new Date();
@@ -51,15 +50,14 @@ document.getElementById("btn-2").addEventListener("click", function(event){
     const commentContainer = document.getElementById
     ("comment-container")
     const newComment = document.createElement('p')
-    newComment.style.padding='20px'
+    newComment.style.padding='10px'
     newComment.style.paddingBottom='5px'
-    newComment.style.paddingTop='10px'
 
     // time 
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `&#x1F496 You have completed the task <b>Add Dark Mode</b> at  ${ locleTime}`;
+    newComment.innerHTML = `&#x1F496 You have completed the task <b>Add Dark Mode</b> <br> at ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -85,15 +83,14 @@ document.getElementById("btn-3").addEventListener("click", function(event){
     const commentContainer = document.getElementById
     ("comment-container")
     const newComment = document.createElement('p')
-    newComment.style.padding='20px'
+    newComment.style.padding='10px'
     newComment.style.paddingBottom='5px'
-    newComment.style.paddingTop='10px'
 
     // time 
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `&#x1F33A You have completed the task <b> Optimize  Home page </b> at  ${ locleTime}`;
+    newComment.innerHTML = `&#x1F33A You have completed the task <b> Optimize  Home page </b> <br>at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -120,15 +117,14 @@ document.getElementById("btn-4").addEventListener("click", function(event){
     const commentContainer = document.getElementById
     ("comment-container")
     const newComment = document.createElement('p')
-    newComment.style.padding='20px'
+    newComment.style.padding='10px'
     newComment.style.paddingBottom='5px'
-    newComment.style.paddingTop='10px'
 
     // time 
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `&#x1F3C6 You have completed the task <b>Add new emoji 🤲</b> at  ${ locleTime}`;
+    newComment.innerHTML = `&#x1F3C6 You have completed the task <b>Add new emoji 🤲</b> <br>at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -154,15 +150,14 @@ document.getElementById("btn-5").addEventListener("click", function(event){
     const commentContainer = document.getElementById
     ("comment-container")
     const newComment = document.createElement('p')
-    newComment.style.padding='20px'
+    newComment.style.padding='10px'
     newComment.style.paddingBottom='5px'
-    newComment.style.paddingTop='10px'
 
     // time 
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `&#x1F525 You have completed the task <b>Integrate OpenAI API</b>  at  ${ locleTime}`;
+    newComment.innerHTML = `&#x1F525 You have completed the task <b>Integrate OpenAI API</b> <br> at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -188,15 +183,14 @@ document.getElementById("btn-6").addEventListener("click", function(event){
     const commentContainer = document.getElementById
     ("comment-container")
     const newComment = document.createElement('p')
-    newComment.style.padding='20px'
+    newComment.style.padding='10px'
     newComment.style.paddingBottom='5px'
-    newComment.style.paddingTop='10px'
 
     // time 
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `&#x1F339 You have completed the task <b>Improve Job searching</b> at  ${ locleTime}`;
+    newComment.innerHTML = `&#x1F339 You have completed the task <b>Improve Job searching</b> <br> at ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
