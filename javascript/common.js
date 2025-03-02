@@ -12,7 +12,8 @@ function Alert_2(){
     alert("Congrates!!! You have completed all the current task.")
 }
 
-document.getElementById("clear-btn").addEventListener("click", function (){
+document.getElementById("clear-btn")
+    .addEventListener("click", function (){
     const commentContainer = document.getElementById
     ("comment-container")
     commentContainer.innerText = ''
