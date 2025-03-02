@@ -24,7 +24,7 @@ document.getElementById("btn-1").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `You have completed the task Fix Mobile Button Issue at  ${ locleTime}`;
+    newComment.innerHTML = `&#x1F60D You have completed the task <b>Fix Mobile Button Issue</b> at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -59,7 +59,7 @@ document.getElementById("btn-2").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `You have completed the task Add Dark Mode at  ${ locleTime}`;
+    newComment.innerHTML = `&#x1F496 You have completed the task <b>Add Dark Mode</b> at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -93,7 +93,7 @@ document.getElementById("btn-3").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `You have completed the task Optimize  Home page  at  ${ locleTime}`;
+    newComment.innerHTML = `&#x1F33A You have completed the task <b> Optimize  Home page </b> at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -128,7 +128,7 @@ document.getElementById("btn-4").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `You have completed the task Add new emoji 🤲 at  ${ locleTime}`;
+    newComment.innerHTML = `&#x1F3C6 You have completed the task <b>Add new emoji 🤲</b> at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -162,7 +162,7 @@ document.getElementById("btn-5").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `You have completed the task Integrate OpenAI API  at  ${ locleTime}`;
+    newComment.innerHTML = `&#x1F525 You have completed the task <b>Integrate OpenAI API</b>  at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
@@ -196,7 +196,7 @@ document.getElementById("btn-6").addEventListener("click", function(event){
     const now = new Date();
     const locleTime = now.toLocaleTimeString()
 
-    newComment.innerHTML = `You have completed the task Improve Job searching at  ${ locleTime}`;
+    newComment.innerHTML = `&#x1F339 You have completed the task <b>Improve Job searching</b> at  ${ locleTime}`;
     commentContainer.appendChild(newComment)
 
     // btn disable
